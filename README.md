@@ -4,6 +4,7 @@
 Kringe
 
 # Csapattagok:
+
 -Jenei László
 -Pete András Bence
 -Nofal Nimród Csongor
