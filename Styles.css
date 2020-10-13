@@ -1,4 +1,4 @@
-﻿body {
+body {
 	font-family: sans-serif;
 	font-size: 12pt;
 	color: #00008b;
@@ -10,13 +10,20 @@
 p{
 	text-align:justify;
 	padding: 5px;
+    padding: 5px;
+    margin: 30px;
+    text-indent: 5px;
+    line-height: 1.2;
+    text-align: center;
+    color: black;
 }
 
 p.bev{
     text-align: justify;
-    font-style: italic;
+    font-style: oblique;
     font-size:small;
     padding: 5px;
+    font-size: 15px;
 }
 
 
@@ -26,39 +33,60 @@ hr {
 	margin-left: auto;
     margin-right: auto;
 }
+ul {
+  list-style: none;
+  padding: 10px;
+  margin: 5px;
+  border-bottom-color: antiquewhite;
+  font-family: sans-serif;
+  font-size: 15pt; 
+    color: black;
+}
 
-h1, h2, h3{
-	color: black;
-	padding: 5px;
+li {
+  padding-left: 16px;
+}
+
+li:before {
+  content: "•"; 
+  padding-right: 12px;
+  color: blue; 
+}
+h1
+{
+    background-color:black;
+    color:white;
+}
+h1{
+	color: white;
     text-align: center;
 }
-
-h2 {
+h2{
+    color:black;
+}
+h3 {
 	font-size: 17px;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    
 }
-table {
-    border: 0px solid darkred;
-    padding: 0px;
+table, th, td {
+  border: 4px solid black;
+  border-collapse: collapse;
+  color: black;
 }
-.button {
-     background-color: transparent;
-     color: white;
-     border: none;
-     text-decoration: none;
-     padding: 10px 15px;
-     display: inline-block;
-     margin: 4px 2px;
-     font-weight: bold;
-     font-family: sans-serif;
-     font-size: 20px;
-     text-transform: uppercase;
-}
-.button:hover{
-     background-color: greenyellow;
-     color: black;
+th, td {
+  padding: 15px;
 }
  .header, .nav{
      text-align: center;
+}
+th{
+  text-align: center;
+}
+table {
+  border-spacing: 5px;
 }
 #tartalom {
 	width: 930px;
@@ -79,6 +107,7 @@ table {
 	margin-left: 15px;
 	border: 0px;
 	width: 240px;
+    border: 5px solid black;
 }
 
 a:link, a:active, a:visited, a:hover {
@@ -90,4 +119,3 @@ a:link, a:active, a:visited, a:hover {
     background-color: #f0f8ff;
     margin: 10px;
 }
-
