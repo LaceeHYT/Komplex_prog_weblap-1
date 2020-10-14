@@ -1,0 +1,124 @@
+body {
+    font-family: gabriola;
+    background-color: #03153A;
+    height: 100%; 
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.cim{
+    background-image: url(../weblap/cimhatter_3.jpg) ;
+    font-family: berlin sans fb;
+    font-variant: small-caps;
+    font-size: 210px;
+    color:black;
+    line-height: normal;
+    text-align: center;
+    padding-bottom: -20px;
+    margin: 20px;
+    box-shadow: #000 2px 2px 8px;
+    position: relative;
+    
+    
+    
+    
+}
+.icon{
+    float: left;
+    width: 100px;
+    position: relative;
+    top: 0;
+
+    
+    
+}
+
+.fejlec{
+    font-family:gabriola; 
+    font-size: 40px;
+    text-decoration: none;
+    position: absolute;
+    top: 0;
+    text-transform: uppercase;
+    margin-left: 500px;
+    margin-top: 300px;
+    text-align: center;
+}
+
+.gombdoboz{
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: auto;
+    text-align: center;
+}
+
+.gomb{
+    width: 200px;
+    margin: 10px;
+    padding: 15px;
+    background:#1E283F;
+    text-align: center;
+    font-family: gabriola;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #000;
+    display: inline-block;
+    color: white;
+    text-decoration: underline;
+    
+}
+.gomb:hover{
+    filter: invert(120%);
+    box-shadow: none;
+}
+
+.szoveg{
+    position: relative;
+    top: -180px;
+    background-image: url(../weblap/hatter.jpg);
+    margin: 220px;
+    
+}
+
+h1{
+   font-size: 50px; 
+   color: black;
+   margin: 30px;
+   text-align: left;
+   font-family: Monotype Corsiva;
+   
+}
+
+h2{
+    font-size: 35px; 
+    color: black;
+    margin: 30px;
+    text-align: left;
+    font-family: Monotype Corsiva;
+    text-decoration: underline;
+    
+}
+
+p{
+    color:black;
+    font-size: 30px;
+    margin-left: 30px;
+    font-family: Monotype Corsiva;
+}
+
+
+#kep1{
+    bottom: 10px;
+    right: 10px;
+    width: 200px;
+    position: fixed;
+
+
+}
+#container{
+    height: 1600px;
+    
+}
