@@ -1,0 +1,70 @@
+body{
+    font-family: gabriola;
+    background-color: #ff664d;
+    height: 100%; 
+    margin: 0;
+    padding: 0;
+}
+
+.gomb{
+    background-color: inherit;
+    display: inline-block;
+    width: 150px;
+    position: fixed;
+    top: 0;
+  }
+  
+  .gomb a{
+    color: white !important;
+    font-size: 25px;
+    vertical-align: middle;
+    padding-left: 5px;
+    text-decoration: none;
+  }
+  .cim{
+    background-image:url(cimhatter_3.jpg);
+    font-family: berlin sans fb;
+    font-variant: small-caps;
+    font-size: 210px;
+    color:black;
+    line-height: normal;
+    text-align: center;
+    padding-bottom: -20px;
+    margin: 20px;
+    box-shadow: #000 2px 2px 8px;
+    position: relative;
+    margin-top: 80px;
+    
+}
+.icon{
+    float: left;
+    width: 100px;
+    position: relative;
+    top: 0; 
+}
+#kep1{
+  bottom: 10px;
+  right: 10px;
+  width: 200px;
+    position: fixed;}
+    
+#container {
+        font-family: 'Inconsolata', monospace;
+        text-align: center;
+        width: 1000px;
+        margin: 1px auto;
+    }
+table {
+        width: 100%;
+    }
+h1 {
+        'Inconsolata', monospace;
+        text-align: center;
+        margin-top: 1px;
+        font-size: 55px;
+    }
+
+input[type="range"] {
+        width: 200px;
+        height: 50px;
+    }

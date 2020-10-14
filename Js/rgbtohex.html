@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hexstyle.css">
+    <title>Nyomtatók</title>
+    </head>
+
+<body>
+    <div class="gomb">
+        <a href="../weblap.html">Vissza a főoldalra</a>
+    </div>
+    <div class="cim">
+            <div ><img class="icon" src="nyomtatohatter.png"></div>
+            <b>Nyomtatók</b>
+    </div>
+    <h1>RGB - HEX konvertáló</h1>
+    <div id="container">
+        <table>
+            <tr>
+                <th>Piros</th>
+                <th>Zöld</th>
+                <th>Kék</th>
+            </tr>
+            <tr>
+                <td><input type="range" min="0" max="255" value="255" id="p" onchange="changeRange()"></td>
+                <td><input type="range" min="0" max="255" value="255" id="z" onchange="changeRange()"></td>
+                <td><input type="range" min="0" max="255" value="255" id="k" onchange="changeRange()"></td>
+            </tr>
+            <tr>
+                <td id="p-label">255</td>
+                <td id="z-label">255</td>
+                <td id="k-label">255</td>
+            </tr>
+        </table>
+        <h1 id="hex-label">#Mozgasd a csúszkákat!</h1>
+
+
+<script>
+function changeRange() {
+    var r = parseInt(document.getElementById("p").value);
+    var g = parseInt(document.getElementById("z").value);
+    var b = parseInt(document.getElementById("k").value);
+     
+    var color = "#" + hex(r) + hex(g) + hex(b);
+     
+    document.body.style.backgroundColor = color;
+    document.getElementById("hex-label").innerText = color;
+    document.getElementById("p-label").innerText = r;
+    document.getElementById("z-label").innerText = g;
+    document.getElementById("k-label").innerText = b;
+     
+    if (r < 100 && g < 100 && b < 100) {
+        document.getElementById("container").style.color = "white";
+    } else {
+        document.getElementById("container").style.color = "black";
+    }
+}
+
+function hex(v) {
+    var hex = v.toString(16);
+    if (v < 16) {
+        hex = "0" + hex;
+    }
+    return hex;
+}
+</script>
+
+    <img id="kep1" src="festek.png" alt="festék">
+</body>
+</html>
